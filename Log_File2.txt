@@ -1,0 +1,268 @@
+2019-03-06 07:35:48      Execution started.
+2019-03-06 07:35:48      QVB Version                   12.20.20600+2018-05-02 14:59:59+8646aa8
+2019-03-06 07:35:48      CPU Target                    x64
+2019-03-06 07:35:48      Operating System              Windows Server 2012 R2 Standard  (64 bit edition)
+2019-03-06 07:35:48      Wow64 mode                    Not using Wow64
+2019-03-06 07:35:48      Language                      0409 English (United States) English
+2019-03-06 07:35:48      Country                       1 United States United States
+2019-03-06 07:35:48      MDAC Version                  6.3.9600.16384
+2019-03-06 07:35:48      MDAC Full Install Version     6.3.9600.16384
+2019-03-06 07:35:48      PreferredCompression          2
+2019-03-06 07:35:48      EnableParallelReload          1
+2019-03-06 07:35:48      ParallelizeQvdLoads           1
+2019-03-06 07:35:48      AutoSaveAfterReload           0
+2019-03-06 07:35:48      BackupBeforeReload            0
+2019-03-06 07:35:48      EnableFlushLog                0
+2019-03-06 07:35:48      SaveInfoWhenSavingFile        0
+2019-03-06 07:35:48      UserLogfileCharset            65001
+2019-03-06 07:35:48      OdbcLoginTimeout              -1
+2019-03-06 07:35:48      OdbcConnectionTimeout         -1
+2019-03-06 07:35:48      LongestPossibleLine           1048576
+2019-03-06 07:35:48      MaxCoreMask                   -1
+2019-03-06 07:35:48      ScriptWantsDbWrite            false
+2019-03-06 07:35:48      ScriptWantsExe                false
+2019-03-06 07:35:48      LogFile CodePage Used:        65001
+2019-03-06 07:35:48      UseMemoryFillPattern          1
+2019-03-06 07:35:48      ScriptMode                    Legacy (gives greater system access) (aka qv11 mode)
+2019-03-06 07:35:48      SequentialThreadCount         100
+2019-03-06 07:35:48      NumberOfCores (effective)     32
+2019-03-06 07:35:48      ReloadCodebase                Bnf
+2019-03-06 07:35:48      Reload Executed By            WIN-FLFV6LCNRDJ\qlikadminid
+2019-03-06 07:35:48      Process Executing             QVB
+2019-03-06 07:35:48      Process ID                    1776
+2019-03-06 07:35:48 0003 JE_Code_Lookup:
+2019-03-06 07:35:48 0004 
+2019-03-06 07:35:48 0005 LOAD * INLINE [
+2019-03-06 07:35:48 0006     JE_Code, JE_Code_Area, JE_Code_Description
+2019-03-06 07:35:48 0007     MA152, AP, PO Final entry
+2019-03-06 07:35:48 0008     RA155, AP, "PO Accrual: Receipt, no invoice"
+2019-03-06 07:35:48 0009     RA154, AP, "PO Accrual: Invoice, no receipt"
+2019-03-06 07:35:48 0010     SA155, AP, "PO Accrual Reversal: Receipt, no invoice"
+2019-03-06 07:35:48 0011     SA154, AP, "PO Accrual Reversal: Invoice, no receipt"
+2019-03-06 07:35:48 0012     OS160, IBS, IBS
+2019-03-06 07:35:48 0013     RS160, IBS, IBS Accrual
+2019-03-06 07:35:48 0014     SS160, IBS, IBS Accrual Reversal
+2019-03-06 07:35:48 0015     MA144, AP, ePcards
+2019-03-06 07:35:48 0016     RA156, AP, "ePcard Accrual: Receipt, no ePcard charge"
+2019-03-06 07:35:48 0017     SA156, AP, "ePcard Accrual Reversal: Receipt, no ePcard charge"
+2019-03-06 07:35:48 0018     OS483, OSB, Renewal Parts Shipments
+2019-03-06 07:35:48 0019     O488, OSB, Renewal Parts Shipments
+2019-03-06 07:35:48 0020     MI805, CAS, CAS to Ledger (material)
+2019-03-06 07:35:48 0021     MI802, CAS, CAS to Ledger (material)
+2019-03-06 07:35:48 0022     SE375, Manual Entry, Manual entry made by engineering finance
+2019-03-06 07:35:48 0023     RE375, Manual Entry, Manual accrual (reversing) entry made by engineering finance
+2019-03-06 07:35:48 0024     RS491, Manual Entry, Manual entry made by transportation finance (reversing)
+2019-03-06 07:35:48 0025     SS491, Manual Entry, Manual entry made by transportation finance
+2019-03-06 07:35:48 0026     MA151, AP, Cash Payments
+2019-03-06 07:35:48 0027     MA161, AP, Freight - Expense
+2019-03-06 07:35:48 0028     MA162, AP, Freight - Paid (cash)
+2019-03-06 07:35:48 0029     MP101, Payroll, Hourly (payroll accrued to expense)
+2019-03-06 07:35:48 0030     MP112, Payroll, Accrual Payroll Entry
+2019-03-06 07:35:48 0031     MI288, SDL, "SDL from Payroll (An/Dev, UX, SSO)"
+2019-03-06 07:35:48 0032     MP131, Payroll, Salary (expense) & Hourly (paid from accrual)
+2019-03-06 07:35:48 0033     MB123, Payroll, Benefits (paid)
+2019-03-06 07:35:48 0034     MP130, Payroll, CPARS deductions (safety glasses/shoes?)
+2019-03-06 07:35:48 0035     MP113, Payroll, TECP
+2019-03-06 07:35:48 0036     MP125, T&L, T&L
+2019-03-06 07:35:48 0037     RA126, T&L, T&L Accrual
+2019-03-06 07:35:48 0038     MB136, T&L, T&L
+2019-03-06 07:35:48 0039     MP070, P&E, Depreciation / Amortization
+2019-03-06 07:35:48 0040     MM334, Permac, Stock Material Transfer (general stores)
+2019-03-06 07:35:48 0041     MV026, Permac, Tool Crib Charges
+2019-03-06 07:35:48 0042     MM335, Permac, Tool Mfg Material
+2019-03-06 07:35:48 0043     MM337, Permac, Tool Room Charges
+2019-03-06 07:35:48 0044     MM338, Permac, Plant Engineering Billbacks
+2019-03-06 07:35:48 0045     MT051, Taxes, Sales and Use Tax
+2019-03-06 07:35:48 0046     KS270, Reversal, System Reversal
+2019-03-06 07:35:48 0047 ]
+2019-03-06 07:35:48      	3 fields found: JE_Code, JE_Code_Area, JE_Code_Description, 
+2019-03-06 07:35:48      40 lines fetched
+2019-03-06 07:35:48 0050 Variance_Sort:
+2019-03-06 07:35:48 0051 Load * Inline [
+2019-03-06 07:35:48 0052 	 SWPT_Var_Analysis
+2019-03-06 07:35:48 0053 	 '> $200K'
+2019-03-06 07:35:48 0054  	'$100K - $200K'
+2019-03-06 07:35:48 0055 	 '$50K - $100K'
+2019-03-06 07:35:48 0056 	 '$25K - $50K'
+2019-03-06 07:35:48 0057 	 '$10K - $25K'
+2019-03-06 07:35:48 0058 	 '> $0 - $10K'
+2019-03-06 07:35:48 0059 	 '= $0'
+2019-03-06 07:35:48 0060 	 '< $0'
+2019-03-06 07:35:48 0061 	 'Unknown'
+2019-03-06 07:35:48 0062 	 ]
+2019-03-06 07:35:48      	1 fields found: SWPT_Var_Analysis, 
+2019-03-06 07:35:48      9 lines fetched
+2019-03-06 07:35:48 0064 Percent_Sort:
+2019-03-06 07:35:48 0065 Load * Inline [
+2019-03-06 07:35:48 0066 	 SWPT_Var_Percent_Analysis	 
+2019-03-06 07:35:48 0067 	 '> 50%'
+2019-03-06 07:35:48 0068 	 '20% - 50%'
+2019-03-06 07:35:48 0069 	 '10% - 20%'
+2019-03-06 07:35:48 0070 	 '< 10%'
+2019-03-06 07:35:48 0071 	 'Zero Variance'
+2019-03-06 07:35:48 0072 	 'No Estimate'
+2019-03-06 07:35:48 0073 	 'Unknown'
+2019-03-06 07:35:48 0074      ]
+2019-03-06 07:35:48      	1 fields found: SWPT_Var_Percent_Analysis, 
+2019-03-06 07:35:48      7 lines fetched
+2019-03-06 07:35:48 0076 Over_Under_Sort:
+2019-03-06 07:35:48 0077 Load * Inline [     
+2019-03-06 07:35:48 0078     SWPT_Over_Under_Analysis 
+2019-03-06 07:35:48 0079      'Overrun (With Est)'
+2019-03-06 07:35:48 0080      'Overrun (No Est)'
+2019-03-06 07:35:48 0081      'Underrun (With Est)'
+2019-03-06 07:35:48 0082      'Underrun (No Est)'
+2019-03-06 07:35:48 0083      'Zero Variance'
+2019-03-06 07:35:48 0084      'Unknown'
+2019-03-06 07:35:48 0085 	 ]
+2019-03-06 07:35:48      	1 fields found: SWPT_Over_Under_Analysis, 
+2019-03-06 07:35:48      6 lines fetched
+2019-03-06 07:35:48 0089 Accrual_Adjustment:
+2019-03-06 07:35:48 0090 Load * Inline [
+2019-03-06 07:35:48 0091 	 Accrual_Adjustment
+2019-03-06 07:35:48 0092 	 'No Adjustment'
+2019-03-06 07:35:48 0093  	 'Ignore Accrual Reversal'
+2019-03-06 07:35:48 0094 	 'Estimate PO Accrual'
+2019-03-06 07:35:48 0095 	 ]
+2019-03-06 07:35:48      	1 fields found: Accrual_Adjustment, 
+2019-03-06 07:35:48      3 lines fetched
+2019-03-06 07:35:48 0098 Division_Adjustment:
+2019-03-06 07:35:48 0099 Load * Inline [
+2019-03-06 07:35:48 0100 	 Division_Adjustment
+2019-03-06 07:35:48 0101 	 '1'
+2019-03-06 07:35:48 0102  	 '1000'
+2019-03-06 07:35:48 0103 	 '1000000'
+2019-03-06 07:35:48 0104 	 ]
+2019-03-06 07:35:48      	1 fields found: Division_Adjustment, 
+2019-03-06 07:35:48      3 lines fetched
+2019-03-06 07:35:48 0107 Currency_Load:
+2019-03-06 07:35:48 0108 
+2019-03-06 07:35:48 0109 LOAD * INLINE [
+2019-03-06 07:35:48 0110     Currency, USD_Conversion
+2019-03-06 07:35:48 0111     USD, 1
+2019-03-06 07:35:48 0112     EUR, 0.9201
+2019-03-06 07:35:48 0113     JPY, 121.1534
+2019-03-06 07:35:48 0114     GBP, 0.6714
+2019-03-06 07:35:48 0115     CHF, 0.9923
+2019-03-06 07:35:48 0116     CAD, 1.3957
+2019-03-06 07:35:48 0117     AUD, 1.3935
+2019-03-06 07:35:48 0118     HKD, 7.7531
+2019-03-06 07:35:48 0119     PEN, 3.3738
+2019-03-06 07:35:48 0120     MXN, 17.1321
+2019-03-06 07:35:48 0121     BRL, 3.9825
+2019-03-06 07:35:48 0122     ARS, 13.1406
+2019-03-06 07:35:48 0123     CLP, 699.0074
+2019-03-06 07:35:48 0124     COP, 3328.4516
+2019-03-06 07:35:48 0125     SEK, 8.5551
+2019-03-06 07:35:48 0126     NOK, 8.7413
+2019-03-06 07:35:48 0127     DKK, 6.8681
+2019-03-06 07:35:48 0128     ZAR, 15.0918
+2019-03-06 07:35:48 0129     CNY, 6.4826
+2019-03-06 07:35:48 0130     IDR, 13862.896
+2019-03-06 07:35:48 0131     KRW, 1182.7321
+2019-03-06 07:35:48 0132     SGD, 1.4138
+2019-03-06 07:35:48 0133 ]
+2019-03-06 07:35:48      	2 fields found: Currency, USD_Conversion, 
+2019-03-06 07:35:48      22 lines fetched
+2019-03-06 07:35:48 0137 Display_Name_Lookup:
+2019-03-06 07:35:48 0138 
+2019-03-06 07:35:48 0139 LOAD 
+2019-03-06 07:35:48 0140 
+2019-03-06 07:35:48 0141 [System Name] as Manual_System_Name,
+2019-03-06 07:35:48 0142 [Display Name] as Manual_Correct_Name
+2019-03-06 07:35:48 0143 FROM
+2019-03-06 07:35:48 0144 [Files\Lookup Tables.xlsx]
+2019-03-06 07:35:48 0145 (ooxml, embedded labels, table is  [Display_Name])
+2019-03-06 07:35:49      	2 fields found: Manual_System_Name, Manual_Correct_Name, 
+2019-03-06 07:35:49      133 lines fetched
+2019-03-06 07:35:49 0147 ATS_Secondary_Proj_Num_Lookup:
+2019-03-06 07:35:49 0148 
+2019-03-06 07:35:49 0149 LOAD [Sec Proj No] as ATS_Secondary_Project_Number, 
+2019-03-06 07:35:49 0150      [Sec Proj Desc] as Manual_Secondary_Project_Desc, 
+2019-03-06 07:35:49 0151      [Sec Funding Type] as Manual_Funding_Type
+2019-03-06 07:35:49 0152 FROM
+2019-03-06 07:35:49 0153 [Files\Lookup Tables.xlsx]
+2019-03-06 07:35:49 0154 (ooxml, embedded labels, table is  [Project_Lookup])
+2019-03-06 07:35:50      	3 fields found: ATS_Secondary_Project_Number, Manual_Secondary_Project_Desc, Manual_Funding_Type, 
+2019-03-06 07:35:50      4,526 lines fetched
+2019-03-06 07:35:50 0157 ATS_Project_System_Data:
+2019-03-06 07:35:50 0158 
+2019-03-06 07:35:50 0159 LOAD Project_No as ATS_Project, 
+2019-03-06 07:35:50 0160 	Project_Description as ATS_Project_Description, 
+2019-03-06 07:35:50 0161 	Project_Category as ATS_Project_Category , 
+2019-03-06 07:35:50 0162 	Status as ATS_Status, 
+2019-03-06 07:35:50 0163 	[Secondary Category] as ATS_Secondary_Category, 
+2019-03-06 07:35:50 0164 	[P&L] as [ATS_P&L], 
+2019-03-06 07:35:50 0165 	[Sub P&L] as [ATS_Sub_P&L], 
+2019-03-06 07:35:50 0166 	[Funding Type] as ATS_Funding_Type, 
+2019-03-06 07:35:50 0167 	[FP&A Program] as [ATS_FP&A_Program], 
+2019-03-06 07:35:50 0168 	[Card Owner] as ATS_Card_Owner, 
+2019-03-06 07:35:50 0169 	[BWP] as ATS_BWP, 
+2019-03-06 07:35:50 0170 	[Funding Category] as ATS_Funding_Category
+2019-03-06 07:35:50 0171 
+2019-03-06 07:35:50 0172 FROM
+2019-03-06 07:35:50 0173 [Files\Lookup Tables.xlsx]
+2019-03-06 07:35:50 0174 (ooxml, embedded labels, table is  [Project_Lookup])
+2019-03-06 07:35:50      	12 fields found: ATS_Project, ATS_Project_Description, ATS_Project_Category, ATS_Status, ATS_Secondary_Category, ATS_P&L, ATS_Sub_P&L, ATS_Funding_Type, ATS_FP&A_Program, ATS_Card_Owner, ATS_BWP, ATS_Funding_Category, 
+2019-03-06 07:35:50      4,526 lines fetched
+2019-03-06 07:35:50 0176 CC_Mapping_Table:
+2019-03-06 07:35:50 0177 LOAD Right(HCCC, 5) as [Old CC], 
+2019-03-06 07:35:50 0178      [Level 4] as [New CC]
+2019-03-06 07:35:50 0179 FROM
+2019-03-06 07:35:50 0180 [Files\HC Trackers.xlsm]
+2019-03-06 07:35:50 0181 (ooxml, embedded labels, table is  [Compo Lookup])
+2019-03-06 07:35:51      	2 fields found: Old CC, New CC, 
+2019-03-06 07:35:51      393 lines fetched
+2019-03-06 07:35:51 0183 GM_Temp_Lookup:
+2019-03-06 07:35:51 0184 LOAD [Level 4] as [ATS_Component], 
+2019-03-06 07:35:51 0185      [Level 2 Owner] as [ATS_General_Manager],
+2019-03-06 07:35:51 0186      [Level 1 Des] as Division     
+2019-03-06 07:35:51 0187 FROM
+2019-03-06 07:35:51 0188 [Files\HC Trackers.xlsm]
+2019-03-06 07:35:51 0189 (ooxml, embedded labels, table is  [Compo Lookup])
+2019-03-06 07:35:51      	3 fields found: ATS_Component, ATS_General_Manager, Division, 
+2019-03-06 07:35:51      393 lines fetched
+2019-03-06 07:35:51 0193 SWPT_First_Load:
+2019-03-06 07:35:51 0194 
+2019-03-06 07:35:51 0195 
+2019-03-06 07:35:51 0196 LOAD Key_Component as Key_Component, 
+2019-03-06 07:35:51 0197      Key_SSO_Number, 
+2019-03-06 07:35:51 0198      SWPT_SSO_Description,
+2019-03-06 07:35:51 0199      SWPT_Requestor,
+2019-03-06 07:35:51 0200      [SSO Owner],
+2019-03-06 07:35:51 0201      Key_Project, 
+2019-03-06 07:35:51 0202      if(Key_Project='N/A','Unknown',Num#(Key_Project)) as Project_ID,
+2019-03-06 07:35:51 0203      SWPT_Project_Description,
+2019-03-06 07:35:51 0204      Key_Secondary_Project_Number, 
+2019-03-06 07:35:51 0205      SWPT_Secondary_Project_Description, 
+2019-03-06 07:35:51 0206      SWPT_Category_Type, 
+2019-03-06 07:35:51 0207      SWPT_Status, 
+2019-03-06 07:35:51 0208      [Key_FP&A_Program],
+2019-03-06 07:35:51 0209      [SWPT_P&L], 
+2019-03-06 07:35:51 0210      [SWPT_Sub_P&L], 
+2019-03-06 07:35:51 0211      SWPT_Secondary_Category, 
+2019-03-06 07:35:51 0212      SWPT_Funding_Type,     
+2019-03-06 07:35:51 0213      SWPT_Estimated_Completion_Date, 
+2019-03-06 07:35:51 0214      SWPT_SSO_Approved_Date, 
+2019-03-06 07:35:51 0215      SWPT_Approved_Amount, 
+2019-03-06 07:35:51 0216      SWPT_Prior_Aggregate_Total,
+2019-03-06 07:35:51 0217      Key_Data_Type,
+2019-03-06 07:35:51 0218      SWPT_1Q as SWPT_Amount, 
+2019-03-06 07:35:51 0219      '1Q' as Key_Quarter,
+2019-03-06 07:35:51 0220      SWPT_Year as Key_Year,
+2019-03-06 07:35:51 0221      SWPT_Current_Year_Total, 
+2019-03-06 07:35:51 0222      SWPT_Next_Year_Total, 
+2019-03-06 07:35:51 0223      SWPT_Past_Next_Year_Total, 
+2019-03-06 07:35:51 0224      SWPT_Grand_Total, 
+2019-03-06 07:35:51 0225      SWPT_PO_Amount, 
+2019-03-06 07:35:51 0226      SWPT_Date,
+2019-03-06 07:35:51 0227      SWPT_Fiscal_Week,
+2019-03-06 07:35:51 0228      SWPT_Applicable_Quarter_Loaded,
+2019-03-06 07:35:51 0229       if(Key_Project='N/A','Expense',if(SWPT_Funding_Type = '81-1',if(lookup('Manual_Funding_Type','ATS_Secondary_Project_Number',Num#(Key_Secondary_Project_Number),'ATS_Secondary_Proj_Num_Lookup')='CapE',
+2019-03-06 07:35:51 0230      'CapE','Expense'),SWPT_Funding_Type )) as SWPT_True_Funding_Type
+2019-03-06 07:35:51 0231 FROM
+2019-03-06 07:35:51 0232 [Files\SWPT_Data_Tables.xlsx]
+2019-03-06 07:35:51 0233 (ooxml, embedded labels, table is SWPT_System_Data)
+2019-03-06 07:35:51      Error: Bad Zip File
+2019-03-06 07:35:51      Execution Failed
+2019-03-06 07:35:51      Execution finished.

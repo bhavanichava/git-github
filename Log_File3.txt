@@ -1,0 +1,121 @@
+2019-03-10 21:00:04      Execution started.
+2019-03-10 21:00:04      QVB Version                   12.20.20600+2018-05-02 14:59:59+8646aa8
+2019-03-10 21:00:04      CPU Target                    x64
+2019-03-10 21:00:04      Operating System              Windows Server 2012 R2 Standard  (64 bit edition)
+2019-03-10 21:00:04      Wow64 mode                    Not using Wow64
+2019-03-10 21:00:04      Language                      0409 English (United States) English
+2019-03-10 21:00:04      Country                       1 United States United States
+2019-03-10 21:00:04      MDAC Version                  6.3.9600.16384
+2019-03-10 21:00:04      MDAC Full Install Version     6.3.9600.16384
+2019-03-10 21:00:04      PreferredCompression          2
+2019-03-10 21:00:04      EnableParallelReload          1
+2019-03-10 21:00:04      ParallelizeQvdLoads           1
+2019-03-10 21:00:04      AutoSaveAfterReload           0
+2019-03-10 21:00:04      BackupBeforeReload            0
+2019-03-10 21:00:04      EnableFlushLog                0
+2019-03-10 21:00:04      SaveInfoWhenSavingFile        0
+2019-03-10 21:00:04      UserLogfileCharset            65001
+2019-03-10 21:00:04      OdbcLoginTimeout              -1
+2019-03-10 21:00:04      OdbcConnectionTimeout         -1
+2019-03-10 21:00:04      LongestPossibleLine           1048576
+2019-03-10 21:00:04      MaxCoreMask                   -1
+2019-03-10 21:00:04      ScriptWantsDbWrite            false
+2019-03-10 21:00:04      ScriptWantsExe                false
+2019-03-10 21:00:04      LogFile CodePage Used:        65001
+2019-03-10 21:00:04      UseMemoryFillPattern          1
+2019-03-10 21:00:04      ScriptMode                    Legacy (gives greater system access) (aka qv11 mode)
+2019-03-10 21:00:04      SequentialThreadCount         100
+2019-03-10 21:00:04      NumberOfCores (effective)     32
+2019-03-10 21:00:04      ReloadCodebase                Bnf
+2019-03-10 21:00:04      Reload Executed By            WIN-VS694IK2BNS\qlikadminid
+2019-03-10 21:00:04      Process Executing             QVB
+2019-03-10 21:00:04      Process ID                    22144
+2019-03-10 21:00:04 0002 SET ThousandSep=','
+2019-03-10 21:00:04 0003 SET DecimalSep='.'
+2019-03-10 21:00:04 0004 SET MoneyThousandSep=','
+2019-03-10 21:00:04 0005 SET MoneyDecimalSep='.'
+2019-03-10 21:00:04 0006 SET MoneyFormat='$#,##0.00;($#,##0.00)'
+2019-03-10 21:00:04 0007 SET TimeFormat='h:mm:ss TT'
+2019-03-10 21:00:04 0008 SET DateFormat='M/D/YYYY'
+2019-03-10 21:00:04 0009 SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT'
+2019-03-10 21:00:04 0010 SET FirstWeekDay=6
+2019-03-10 21:00:04 0011 SET BrokenWeeks=1
+2019-03-10 21:00:04 0012 SET ReferenceDay=0
+2019-03-10 21:00:04 0013 SET FirstMonthOfYear=1
+2019-03-10 21:00:04 0014 SET CollationLocale='en-US'
+2019-03-10 21:00:04 0015 SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec'
+2019-03-10 21:00:04 0016 SET LongMonthNames='January;February;March;April;May;June;July;August;September;October;November;December'
+2019-03-10 21:00:04 0017 SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun'
+2019-03-10 21:00:04 0018 SET LongDayNames='Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday'
+2019-03-10 21:00:04 0021 SET vQVDPATH_FORM = '\Qlikview\Published Application\Prototypes\Karan\ProjectTracker\QVDs\'
+2019-03-10 21:00:04 0023 ODBC CONNECT TO *** (XUserId is ***, XPassword is ***)
+2019-03-10 21:00:06 0027 basetable:
+2019-03-10 21:00:06 0028 load  
+2019-03-10 21:00:06 0029  
+2019-03-10 21:00:06 0030 	'V'&'-'&ReloadTime() as DataVersionDate,
+2019-03-10 21:00:06 0031 
+2019-03-10 21:00:06 0032 "Workstream" as Workstream,
+2019-03-10 21:00:06 0033 "Sub Workstream" as [Sub-Workstream],
+2019-03-10 21:00:06 0034 WBS as  [Workplan WBS],
+2019-03-10 21:00:06 0035 [Task Name] as [Task-Name],
+2019-03-10 21:00:06 0036 Project as Project,
+2019-03-10 21:00:06 0037 Type as Type,
+2019-03-10 21:00:06 0038 
+2019-03-10 21:00:06 0039 
+2019-03-10 21:00:06 0040 
+2019-03-10 21:00:06 0041 
+2019-03-10 21:00:06 0042 
+2019-03-10 21:00:06 0043 
+2019-03-10 21:00:06 0044 Duration as Duration,
+2019-03-10 21:00:06 0045 Start as  [Start Date],
+2019-03-10 21:00:06 0046 Finish as  [End Date],
+2019-03-10 21:00:06 0047 
+2019-03-10 21:00:06 0048 "Cost Category" as [People / Non-People],
+2019-03-10 21:00:06 0049 "Assigned To" as [Assigned To],
+2019-03-10 21:00:06 0050 "% Complete" as [% Complete],
+2019-03-10 21:00:06 0051 Status as Status ,
+2019-03-10 21:00:06 0052 "App Factory" as [App-Factory],
+2019-03-10 21:00:06 0053 "# of Assets Impacted" as [Assets-Impacted],
+2019-03-10 21:00:06 0054 "Resources (Internal)" as [Resources (Internal)],
+2019-03-10 21:00:06 0055 "Resources (External)" as [Resources (External)]  ,
+2019-03-10 21:00:06 0056 "Estimated OTC" as  [Estimated OTC $],
+2019-03-10 21:00:06 0057 "People OTC" as [People OTC cost],
+2019-03-10 21:00:06 0058 "Non-People: Hardware OTC" as [Non-People Hardware OTC],
+2019-03-10 21:00:06 0059 "Non-People: Software / Licenses OTC" as [Non-people software license OTC],
+2019-03-10 21:00:06 0060 "Non-People: Overlap OTC" as [Non-People Overlap OTC],
+2019-03-10 21:00:06 0061 "Total OTC" as [Total OTC],
+2019-03-10 21:00:06 0062 "2018 Baseline Run",
+2019-03-10 21:00:06 0063 "Incremental Run rate",
+2019-03-10 21:00:06 0064 Comments as Comments,
+2019-03-10 21:00:06 0065 "Confidence Level" as [Confidence Level],
+2019-03-10 21:00:06 0066 "Duration Check"  as [Duration Check],
+2019-03-10 21:00:06 0067 "Budget Check" as [Budget Check],
+2019-03-10 21:00:06 0068  "0-90 Days" as [0-90 Days],
+2019-03-10 21:00:06 0069     "90-180 Days" as [90-180 Days],
+2019-03-10 21:00:06 0070     "180-270 Days" as [180-270 Days],
+2019-03-10 21:00:06 0071     "270-360 Days" as [270-360 Days],
+2019-03-10 21:00:06 0072     "360-450 Days" as [360-450 Days],
+2019-03-10 21:00:06 0073     "450-540 Days" as [450-540 Days],
+2019-03-10 21:00:06 0074     "540-630 Days" as [540-630 Days],
+2019-03-10 21:00:06 0075     "630-720 Days" as [630-720 Days],
+2019-03-10 21:00:06 0076     "720-810 Days" as [720-810 Days],
+2019-03-10 21:00:06 0077     "810-900 Days" as [810-900 Days],
+2019-03-10 21:00:06 0078     "Capex vs Opex Check" as [Check (Capex&opex)],
+2019-03-10 21:00:06 0079     Capex as Capex,
+2019-03-10 21:00:06 0080     Opex as Opex,
+2019-03-10 21:00:06 0081 "Assumption Description",
+2019-03-10 21:00:06 0082 "Assumption Category",
+2019-03-10 21:00:06 0083 QuarterStart(Start)as _1financialquarterstart ,
+2019-03-10 21:00:06 0084 
+2019-03-10 21:00:06 0085 
+2019-03-10 21:00:06 0086    
+2019-03-10 21:00:06 0087 
+2019-03-10 21:00:06 0088 
+2019-03-10 21:00:06 0089 fabs(trim(Start)-trim(Finish))	as  _proj_duration,
+2019-03-10 21:00:06 0090 trim(Start) as s,
+2019-03-10 21:00:06 0091 trim((Finish)) as e
+2019-03-10 21:00:06 0093 SQL SELECT *
+2019-03-10 21:00:06 0094 FROM "Consolidated Workplan - IT Divestiture__6486955245496196s_(Home)"
+2019-03-10 21:00:13      Error: Field 'Cost Category' not found
+2019-03-10 21:00:13      Execution Failed
+2019-03-10 21:00:13      Execution finished.
